@@ -1,19 +1,41 @@
 
+h2 {
+  color:white;
+   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
 h1 {
   color: darkblue;
-
+  font-size: 60px;
+  font-family: Comic Sans MS;
 }
+
+#dog{
+  border-style: solid;
+  border-width: 5px;
+  border-color: darkblue;
+  background-color: lightblue;
+  text-align: center;
+}
+
 body {
-  background-color: lightyellow;
+  background-color: white;
 }
 .one {
   background-color: lightblue;
   text-align: center;
-  border-color: red;
+  border-color: blue;
   border-top: 50px;
   border-width: 40px;
+  border-style: double;
+  margin: 0 auto;
+  width: 800px;
+}
+
+input {
+  border: 2px solid black;
+  border-radius: 4px;
 }
 
 h3 {
-  font-family: Cambria, Georgia, serif;
+  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
 }
