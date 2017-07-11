@@ -29,7 +29,21 @@ class MainHandler(webapp2.RequestHandler):
 class ReportHandler(webapp2.RequestHandler):
     def get(self):
         template = jinja_environment.get_template('report.html')
-        self.response.write(template.render())
+        template_variables = {
+            'name1': self.request.get("username"),
+            'name2': self.request.get("school"),
+            'name3': self.request.get("schooladdress"),
+            'name4': self.request.get("year"),
+            'name5': self.request.get("block"),
+            'name6': self.request.get("block1"),
+            'name7': self.request.get("block2"),
+            'name8': self.request.get("block3"),
+            'name9': self.request.get("grade"),
+            'name10': self.request.get("grade1"),
+            'name11': self.request.get("grade2"),
+            'name12': self.request.get("grade3")
+                   }
+        self.response.out.write(template.render(template_variables))
 
 app = webapp2.WSGIApplication([
     ('/', MainHandler),
