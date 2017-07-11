@@ -1,3 +1,19 @@
-div {
+
+h1 {
+  color: darkblue;
+
+}
+body {
+  background-color: lightyellow;
+}
+.one {
   background-color: lightblue;
+  text-align: center;
+  border-color: red;
+  border-top: 50px;
+  border-width: 40px;
+}
+
+h3 {
+  font-family: Cambria, Georgia, serif;
 }
