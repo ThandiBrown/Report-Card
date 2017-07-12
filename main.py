@@ -41,7 +41,8 @@ class ReportHandler(webapp2.RequestHandler):
             'name9': self.request.get("grade"),
             'name10': self.request.get("grade1"),
             'name11': self.request.get("grade2"),
-            'name12': self.request.get("grade3")
+            'name12': self.request.get("grade3"),
+            'name13': self.request.get("useraddress")
                    }
         self.response.out.write(template.render(template_variables))
 
