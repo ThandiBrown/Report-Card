@@ -55,7 +55,20 @@ class ReportHandler(webapp2.RequestHandler):
             'name23': self.request.get("t4"),
             'name24': self.request.get("t5"),
             'name25': self.request.get("t6"),
-            'name26': self.request.get("t7")
+            'name26': self.request.get("t7"),
+            'name27': self.request.get("principal"),
+            'name28': self.request.get("st.add"),
+            'name29': self.request.get("st.twn"),
+            'name30': self.request.get("schoolstate"),
+            'name31': self.request.get("schoolnumber"),
+            'name32': self.request.get("st.id"),
+            'name33': self.request.get("st.grade"),
+            'name34': self.request.get("hr"),
+            'name35': self.request.get("abs"),
+            'name36': self.request.get("tdy"),
+
+
+
                    }
         self.response.out.write(template.render(template_variables))
 
