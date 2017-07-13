@@ -3,59 +3,101 @@
   <link rel="stylesheet" href="/resources/style.css">
 </head>
   <body><br><br>
-    <h2>NoMo'Whoppin's</h2>
+    <h2>NoMo'Whoopin's</h2>
     <div id="dog">
         <h1>Report Card: Enter Your Data Here</h1>
-    </div><br><br>
+    </div>
+    <br><br>
     <form method="get" action ="report">
       <div>
-      <div class="one" id = "one">
-         <h3>Enter your name (Last, First Middle): <input type="text" name="username"/></h3>
-         <h3>Enter your school name: <input type="text" name="school"/></h3>
-         <h3>Enter your school address: <input type="text" name="schooladdress"/></h3>
-         <h3>Enter the year: <input type="text" name="year"/></h3>
-         <h3>Enter the student # address: <input type="text" name="st.add"/></h3>
-         <h3>Enter the student city, state, zipcode : <input type="text" name="st.twn"/></h3>
-
+        <div class="one">
+         <h3>Enter Your name (Last, First Middle): <input type="text" name="stdname"/></h3>
+         <h3>Enter Your street address: <input type="text" name="stdstr"/></h3>
+         <h3>Enter Your City, ST Zip Code: <input type="text" name="stdtown"/></h3>
+         <h3>Enter the Student ID #: <input type="text" name="stdID"/></h3>
+         <h3>Enter Your Grade Level: <input type="text" name="grade"/></h3>
+         <h3>Enter Your Homerooom Teacher : <input type="text" name="hometeacher"/></h3>
+         <h3>Enter Your School Year (20XX-20XX) : <input type="text" name="schoolyear"/></h3>
       </div>
-      <div class="one" id = "two">
-         <h3>Enter your student I.D.: <input type="text" name="st.id"/></h3>
-         <h3>Enter your grade: <input type="text" name="st.grade"/></h3>
-         <h3>Enter your homeroom teacher: <input type="text" name="hr"/></h3>
-
+        <div class="one">
+        <h3>Enter School Name: <input type="text" name="schoolname"/></h3>
+        <h3>Enter Principal Name: <input type="text" name="principal"/></h3>
+        <h3>Enter School Street Address: <input type="text" name="schoolstr"/></h3>
+        <h3>Enter School City ST Zipcode: <input type="text" name="schooltown"/></h3>
+        <h3>Enter School Phone Number: <input type="text" name="schoolphone"/></h3>
       </div>
-      <div class="one" id="three">
-         <h3>Enter your first block class: <input type="text" name="block1"/></h3>
-         <h3>Enter your second block class: <input type="text" name="block2"/></h3>
-         <h3>Enter your third block class: <input type="text" name="block3"/> </h3>
-         <h3>Enter your fourth block class: <input type="text" name="block4"/></h3>
-         <h3>Enter your fifth block class: <input type="text" name="block5"/></h3>
-         <h3>Enter your sixth block class: <input type="text" name="block6"/></h3>
-         <h3>Enter your seventh block class: <input type="text" name="block7"/></h3>
-       </div>
-       <div class="one" id="three">
-         <h3>Enter your first block teacher: <input type="text" name="t1"/></h3>
-         <h3>Enter your second block teacher: <input type="text" name="t2"/></h3>
-         <h3>Enter your third block teacher: <input type="text" name="t3"/> </h3>
-         <h3>Enter your fourth block teacher: <input type="text" name="t4"/></h3>
-         <h3>Enter your fifth block teacher: <input type="text" name="t5"/></h3>
-         <h3>Enter your sixth block teacher: <input type="text" name="t6"/></h3>
-         <h3>Enter your seventh block teacher: <input type="text" name="t7"/></h3>
 
-       <div class="one">
-         <h3>Enter your grade <input type="text" name="grade1"/></h3>
-         <h3>Enter your grade <input type="text" name="grade2"/></h3>
-         <h3>Enter your grade <input type="text" name="grade3"/></h3>
-         <h3>Enter your grade <input type="text" name="grade4"/></h3>
-         <h3>Enter your grade <input type="text" name="grade5"/></h3>
-         <h3>Enter your grade <input type="text" name="grade6"/></h3>
-         <h3>Enter your grade <input type="text" name="grade7"/></h3>
-
-
-             </div>
-     </div>
-      <p><input type="submit" value="Submit"></p>
- </form>
+        <p>Enter in your class in the order you take them on a daily. Then enter<br>
+          in the corresponding information in relation to the class, such as the number<br>
+          of tardies received by that class in the quarter.</p>
+        <div>
+      <table>
+        <tr>
+            <th>Class</th>
+            <th>Teacher</th>
+            <th>Grade</th>
+            <th>Absences</th>
+            <th>Tardy</th>
+          </tr>
+        <tr>
+            <td><input type="text" name="class1"/></td>
+            <td><input type="text" name="t1"/></td>
+            <td><input type="text" name="g1"/></td>
+            <td><input type="text" name="abs1"/></td>
+            <td><input type="text" name="tdy1"/></td>
+          </tr>
+        <tr>
+            <td><input type="text" name="class2"/></td>
+            <td><input type="text" name="t2"/></td>
+            <td><input type="text" name="g2"/></td>
+            <td><input type="text" name="abs2"/></td>
+            <td><input type="text" name="tdy2"/></td>
+          </tr>
+        <tr>
+            <td><input type="text" name="class3"/></td>
+            <td><input type="text" name="t3"/></td>
+            <td><input type="text" name="g3"/></td>
+            <td><input type="text" name="abs3"/></td>
+            <td><input type="text" name="tdy3"/></td>
+          </tr>
+        <tr>
+            <td><input type="text" name="class4"/></td>
+            <td><input type="text" name="t4"/></td>
+            <td><input type="text" name="g4"/></td>
+            <td><input type="text" name="abs4"/></td>
+            <td><input type="text" name="tdy4"/></td>
+          </tr>
+        <tr>
+            <td><input type="text" name="class5"/></td>
+            <td><input type="text" name="t5"/></td>
+            <td><input type="text" name="g5"/></td>
+            <td><input type="text" name="abs5"/></td>
+            <td><input type="text" name="tdy5"/></td>
+           </tr>
+        <tr>
+            <td><input type="text" name="class6"/></td>
+            <td><input type="text" name="t6"/></td>
+            <td><input type="text" name="g6"/></td>
+            <td><input type="text" name="abs6"/></td>
+            <td><input type="text" name="tdy6"/></td>
+          </tr>
+        <tr>
+            <td><input type="text" name="class7"/></td>
+            <td><input type="text" name="t7"/></td>
+            <td><input type="text" name="g7"/></td>
+            <td><input type="text" name="abs7"/></td>
+            <td><input type="text" name="tdy7"/></td>
+           </tr>
+      </table>
+    </div>
+        <br><br>
+        <div class="one">
+      <h3>Enter Total Number of Absences for the Quarter: <input type="text" name="tlabs"/></h3>
+      <h3>Enter Total Number of Tardies for the Quarter: <input type="text" name="tltdy"/></h3>
+    </div>
+      </div>
+     <p><input type="submit" value="Submit"></p>
+    </form>
 
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
  <script src="/resources/jump.js"></script>

@@ -1,0 +1,65 @@
+
+body {
+  text-align: center;
+  min-width: 1200px;
+}
+
+left {
+  text-align: left;
+}
+div {
+  margin: 150px;
+  border-style: solid;
+  border-color: black;
+  padding-left: 50px;
+  position: relative;
+  width: 1201;
+}
+
+#grades {
+  display: inline-block;
+}
+
+#schoolinfo {
+position: absolute;
+top: 120px;
+right:200px;
+}
+
+#personal {
+position: absolute;
+top: 120px;
+}
+
+#sdtinfo {
+  position: absolute;
+  top: 200px;
+}
+
+#reportcard {
+  background-color: lightgray;
+}
+
+#reportcard th tr td {
+border-style: solid;
+}
+
+#reportcard td {
+background-color: white;
+}
+
+#summ {
+  background-color: lightgray;
+}
+
+#summ th tr td {
+border-style: solid;
+}
+
+#summ td {
+background-color: white;
+}
+
+#schoolname{
+  text-align: left;
+}
