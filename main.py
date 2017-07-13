@@ -42,6 +42,7 @@ class ReportHandler(webapp2.RequestHandler):
             'schooltown': self.request.get("schooltown"),
             'schoolphone': self.request.get("schoolphone"),
             'schoolyear': self.request.get("school"),
+            'countyname': self.request.get("countynamne"),
             'class1': self.request.get("class1"),
             'class2': self.request.get("class2"),
             'class3': self.request.get("class3"),
