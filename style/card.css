@@ -1,0 +1,100 @@
+h1, h4 {
+  font-family: Verdana, sans-serif;
+}
+h1{
+  font-size: 25px;
+}
+h4 {
+  font-size: 14px;
+}
+body {
+  text-align: center;
+  min-width: 1200px;
+  background-color: gray;
+}
+div {
+  margin: auto;
+  margin-top: 19px;
+  padding-left: 50px;
+  position: relative;
+  width: 1000px;
+  height: 770px;
+  background-color: #FFFDF3;
+  box-shadow: 0px 0px 3px 1px #2A2A2A;
+}
+
+
+#personal {
+  position: absolute;
+  top: 160px;
+  margin-left: 60px;
+  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+#schoolinfo {
+  position: absolute;
+  top: 160px;
+  right:200px;
+  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+#schoolinfo td {
+  height: 5px;
+}
+
+#schoolname{
+  text-align: left;
+  font-size: 18px;
+}
+
+#sdtinfo {
+  position: absolute;
+  top: 270px;
+  margin-left: 60px;
+  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+#reportcard {
+  background-color: #A0A0A0;
+  margin-left: 40px;
+}
+
+#reportcard th tr td {
+  border-style: solid;
+}
+
+#reportcard td {
+  background-color: #FFFDF3;
+}
+
+#summ {
+  background-color: #A0A0A0;
+  margin-left: 40px;
+}
+
+#summ th tr td {
+  border-style: solid;
+}
+
+#summ td {
+  background-color: #FFFDF3;
+}
+
+#grades {
+  font-weight: bold;
+  position: absolute;
+  bottom: 60px;
+  right: 270px;
+}
+
+#left {
+  text-align: left;
+  position: absolute;
+  bottom: 40px;
+}

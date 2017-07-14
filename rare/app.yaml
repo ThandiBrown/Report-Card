@@ -1,4 +1,4 @@
-application: nomo-whoopins
+application: project-1
 version: 1
 runtime: python27
 api_version: 1
@@ -10,7 +10,7 @@ handlers:
   upload: favicon\.ico
 
 - url: /resources
-  static_dir: style
+  static_dir: static
 
 - url: .*
   script: main.app
