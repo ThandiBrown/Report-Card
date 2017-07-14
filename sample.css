@@ -1,0 +1,78 @@
+
+
+body {
+  text-align: center;
+  min-width: 1200px;
+  background-color: lightgray;
+}
+
+div {
+  margin: auto;
+  padding-left: 50px;
+  position: relative;
+  width: 1200px;
+  height: 800px;
+  background-color: #FFFDF3;
+  box-shadow: 0px 0px 10px 1px #7A7A7A;
+}
+
+
+table {
+  margin-left: 60px;
+}
+
+#personal {
+  position: absolute;
+  top: 190px;
+  margin-left: 90px;
+}
+
+#schoolinfo {
+  position: absolute;
+  top: 190px;
+  right:200px;
+}
+
+#schoolname{
+  text-align: left;
+}
+
+#sdtinfo {
+  position: absolute;
+  top: 270px;
+  margin-left: 90px;
+}
+
+#reportcard {
+  background-color: gray;
+}
+
+#reportcard th tr td {
+  border-style: solid;
+}
+
+#reportcard td {
+  background-color: #FFFDF3;
+}
+
+#summ {
+  background-color: gray;
+}
+
+#summ th tr td {
+  border-style: solid;
+}
+
+#summ td {
+  background-color: #FFFDF3;
+}
+
+#grades {
+  font-weight: bold;
+  position: absolute;
+  bottom: 70px;
+  right: 390px;
+}
+
+#left {
+  text-align: left;}
