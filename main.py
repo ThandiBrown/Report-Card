@@ -17,6 +17,7 @@
 import webapp2
 import jinja2
 import os
+import model
 
 jinja_environment = jinja2.Environment(
     loader=jinja2.FileSystemLoader(os.path.dirname(__file__)))
@@ -82,6 +83,24 @@ class ReportHandler(webapp2.RequestHandler):
             'tltdy': self.request.get("tltdy"),
 
                    }
+        reportcard=model.ReportCard()
+        reportcard.address=self.request.get("schooladdress")
+        reportcard.useraddress= self.request.get("useraddress")
+        reportcard.put()
+        reportcard.firstblock=self.request.get("block1")
+        reportcard.secondblock=self.request.get("block2")
+        reportcard.thirdblock= self.request.get("block3")
+        reportcard.fifthblock=self.request.get("block4")
+        reportcard.sixthblock=self.request.get("block6")
+        reportcard.seventhblock= self.request.get("grade7")
+        reportcard.firstblockteacher=self.request.get("t1")
+        reportcard.second_block_teacher=self.request.get("t2")
+        reportcard.third_block_teacher=self.request.get("t3")
+        reportcard.fourth_block_teacher= self.request.get("t4")
+        reportcard.fifth_block_teacher=self.request.get("t5")
+        reportcard.sixth_block_teacher=self.request.get("t6")
+        reportcardseventh_block_teacher=self.request.get("t7")
+        key=reportcard.put()
         self.response.out.write(template.render(template_variables))
 
 app = webapp2.WSGIApplication([
