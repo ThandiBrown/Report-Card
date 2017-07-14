@@ -1,0 +1,23 @@
+from google.appengine.ext import ndb
+
+class ReportCard(ndb.Model):
+    schooladdress= ndb.StringProperty()
+    useraddress= ndb.StringProperty()
+    city = ndb.StringProperty()
+    first_name= ndb.StringProperty()
+    last_name= ndb.StringProperty()
+    middle_name= ndb.StringProperty()
+    firstblock= ndb.StringProperty()
+    secondblock= ndb.StringProperty()
+    thirdblock= ndb.StringProperty()
+    fourthblock= ndb.StringProperty()
+    fifthblock= ndb.StringProperty()
+    sixthblock= ndb.StringProperty()
+    seventhblock= ndb.StringProperty()
+    firstblockteacher= ndb.StringProperty()
+    second_block_teacher= ndb.StringProperty()
+    third_block_teacher= ndb.StringProperty()
+    fourth_block_teacher= ndb.StringProperty()
+    fifth_block_teacher= ndb.StringProperty()
+    sixth_block_teacher= ndb.StringProperty()
+    seventh_block_teacher= ndb.StringProperty()
