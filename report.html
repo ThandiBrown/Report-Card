@@ -5,161 +5,185 @@
     <title>Card Marking</title>
 </head>
 <body>
-  <div><br><br><br>
-    <h1>{{ countyname }} County School System</h1>
-    <h4>{{ schoolyear }} Report Card</h4>
+  <div>
+  <h1>Richmond County School System</h1>
+  <h4>2016-2017 Report Card</h4>
 
-    <table id="personal">
-    <tr>
-      <td>Student Name:</td>
-      <td>{{ stdname }}</td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>{{ stdstr }}</td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>{{ stdtown }}</td>
-    </tr>
-  </table>
-    <table id="schoolinfo">
-  <th id="schoolname">{{ schoolname }} High School</th>
+<table>
   <tr>
-    <td>{{ principal }}</td>
+    <td>Student Name:</td>
+    <td>  {{ name1 }} </td>
   </tr>
   <tr>
-    <td>{{ schoolstr }}</td>
+    <td></td>
+    <td></td>
   </tr>
   <tr>
-    <td>{{ schooltown }}</td>
-  </tr>
-  <tr>
-    <td>Telephone: {{ schoolphone }}</td>
+    <td></td>
+    <td>Home Town</td>
   </tr>
 </table>
-    <table id="sdtinfo">
-      <tr>
-        <td>Student ID:</td>
-        <td>{{ stdID }}</td>
-      </tr>
-      <tr>
-        <td>Grade:</td>
-        <td>{{ grade }}</td><br><br>
-      </tr>
-      <tr>
-        <td>Period Sort:</td>
-        <td>{{ hometeacher }}</td>
-      </tr>
-    </table> <br><br><br><br><br><br><br><br><br>
-    <table id="reportcard" width=40%>
-      <th>Meets</th>
-      <th>Course</th>
-      <th>Teacher</th>
-      <th>Q</th>
-      <th>Abs</th>
-      <th>Tdy</th>
-      <th>Crd</th>
-      <tr>
-        <td>1</td>
-        <td>{{ class1 }}</td>
-        <td>{{ t1 }}</td>
-        <td>{{ g1 }}</td>
-        <td>{{abs1}}</td>
-        <td>{{tdy1}}</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>2</td>
-        <td>{{ class2 }}</td>
-        <td>{{ t2 }}</td>
-        <td>{{ g2 }}</td>
-        <td>{{abs2}}</td>
-        <td>{{tdy2}}</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>3</td>
-        <td>{{ class3 }}</td>
-        <td>{{ t3 }}</td>
-        <td>{{ g3 }}</td>
-        <td>{{abs3}}</td>
-        <td>{{tdy3}}</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>4</td>
-        <td>{{ class4 }}</td>
-        <td>{{ t4 }}</td>
-        <td>{{ g4 }}</td>
-        <td>{{abs4}}</td>
-        <td>{{tdy4}}</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>5</td>
-        <td>{{ class5 }}</td>
-        <td>{{ t5 }}</td>
-        <td>{{ g5 }}</td>
-        <td>{{abs5}}</td>
-        <td>{{tdy5}}</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>6</td>
-        <td>{{ class6 }}</td>
-        <td>{{ t6 }}</td>
-        <td>{{ g6 }}</td>
-        <td>{{abs6}}</td>
-        <td>{{tdy6}}</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>7</td>
-        <td>{{ class7 }}</td>
-        <td>{{ t7 }}</td>
-        <td>{{ g7 }}</td>
-        <td>{{abs7}}</td>
-        <td>{{tdy7}}</td>
-        <td></td>
-      </tr>
-    </table> <br><br><br>
-    <table id="summ">
-      <th>GR Periods</th>
-      <th>Total</th>
-      <tr>
-        <td>Absences</td>
-        <td>{{ tlabs }}</td>
-      </tr>
-      <tr>
-        <td>Tardies</td>
-        <td>{{ tltdy }}</td>
-      </tr>
-    </table>
-    <table id="grades">
-      <tr>
-        <td>A = </td>
-        <td>100-90</td>
-      </tr>
-      <tr>
-        <td>B = </td>
-        <td>89-80</td><br><br>
-      </tr>
-      <tr>
-        <td>C = </td>
-        <td>79-75</td>
-      </tr>
-      <tr>
-        <td>D = </td>
-        <td>74-70</td>
-      </tr>
-      <tr>
-        <td>F = </td>
-        <td>69-0</td>
-      </tr>
-    </table>
+<table>
+  <th>ARC High School</th>
+  <tr>
+    <td>Principal Name</td>
+  </tr>
+  <tr>
+    <td>{{ name3 }}</td>
+  </tr>
+  <tr>
+    <td>School Town</td>
+  </tr>
+  <tr>
+    <td>School Telephone</td>
+  </tr>
+</table>
 
-    <p id="left"> Comments: </p><br><br><br><br><br>
-  </div>
+
+<table id="other">
+    <tr>
+      <td>Student ID:</td>
+      <td>XXXX</td>
+    </tr>
+    <tr>
+      <td>Grade:</td>
+      <td>12</td><br><br>
+    </tr>
+    <tr>
+      <td>Period Sort:</td>
+      <td>(Homeroom)</td>
+    </tr>
+  </table>
+
+
+<br><br>
+
+<table width=60%>
+  <th>Meets</th>
+  <th>Course</th>
+  <th>Teacher</th>
+  <th>Q1</th>
+  <th>Q2</th>
+  <th>Q3</th>
+  <th>Abs</th>
+  <th>Tdy</th>
+  <th>Crd</th>
+  <tr>
+    <td>1</td>
+    <td>{{ name5 }}</td>
+    <td>c</td>
+    <td>{{ name12 }}</td>
+    <td>e</td>
+    <td>f</td>
+    <td>g</td>
+    <td>h</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>{{ name6 }}</td>
+    <td>c</td>
+    <td>{{ name13 }}</td>
+    <td>e</td>
+    <td>f</td>
+    <td>g</td>
+    <td>h</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>{{ name7 }}</td>
+    <td>c</td>
+    <td>{{ name14 }}</td>
+    <td>e</td>
+    <td>f</td>
+    <td>g</td>
+    <td>h</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>{{ name8 }}</td>
+    <td>c</td>
+    <td>{{ name15}}</td>
+    <td>e</td>
+    <td>f</td>
+    <td>g</td>
+    <td>h</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>{{ name9 }}</td>
+    <td>c</td>
+    <td>{{ name16 }}</td>
+    <td>e</td>
+    <td>f</td>
+    <td>g</td>
+    <td>h</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>{{ name10 }}</td>
+    <td>c</td>
+    <td>{{ name17 }}</td>
+    <td>e</td>
+    <td>f</td>
+    <td>g</td>
+    <td>h</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>{{ name11 }}</td>
+    <td>c</td>
+    <td>{{ name18 }}</td>
+    <td>e</td>
+    <td>f</td>
+    <td>g</td>
+    <td>h</td>
+  </tr>
+</table>
+<br><br><br>
+<table>
+  <th>GR Periods</th>
+  <th>Q1</th>
+  <th>Q2</th>
+  <th>Q3</th>
+  <th>Total</th>
+  <tr>
+    <td>Absences</td>
+    <td>2</td>
+    <td>1</td>
+    <td>1</td>
+    <td>4</td>
+  </tr>
+  <tr>
+    <td>Tardies</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td>1</td>
+  </tr>
+</table>
+<table id="grades">
+  <tr>
+    <td>A = </td>
+    <td>100-90</td>
+  </tr>
+  <tr>
+    <td>B = </td>
+    <td>89-80</td><br><br>
+  </tr>
+  <tr>
+    <td>C = </td>
+    <td>79-75</td>
+  </tr>
+  <tr>
+    <td>D = </td>
+    <td>74-70</td>
+  </tr>
+  <tr>
+    <td>F = </td>
+    <td>69-0</td>
+  </tr>
+</table>
+<p> Comments: </p>
+</div>
 </body>
 </html>
